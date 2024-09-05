@@ -16,6 +16,7 @@ type ACLPolicy struct {
 	ACLs          []ACL         `json:"acls"`
 	Tests         []ACLTest     `json:"tests"`
 	AutoApprovers AutoApprovers `json:"autoApprovers"`
+	NodeAttrs			[]NodeAttrs		`json:"nodeAttrs"`
 	SSHs          []SSH         `json:"ssh"`
 }
 
@@ -48,6 +49,12 @@ type ACLTest struct {
 type AutoApprovers struct {
 	Routes   map[string][]string `json:"routes"`
 	ExitNode []string            `json:"exitNode"`
+}
+
+// Sets specific attributes per node.
+type NodeAttrs struct {
+	Target			[]string	`json:"target"`
+	Attribute		[]string	`json:"attr"`
 }
 
 // SSH controls who can ssh into which machines.
