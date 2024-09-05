@@ -120,6 +120,7 @@ func tailNode(
 			tailcfg.CapabilityFileSharing: []tailcfg.RawMessage{},
 			tailcfg.CapabilityAdmin:       []tailcfg.RawMessage{},
 			tailcfg.CapabilitySSH:         []tailcfg.RawMessage{},
+			tailcfg.NodeAttrFunnel:				 []tailcfg.RawMessage{},
 		}
 
 		if cfg.RandomizeClientPort {
