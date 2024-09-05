@@ -112,7 +112,7 @@ kos:
   - id: dockerhub
     build: headscale
     base_image: gcr.io/distroless/base-debian12
-    repository: headscale/headscale
+    repository: metal6/headscale
     bare: true
     platforms:
       - linux/amd64
@@ -161,7 +161,7 @@ kos:
   - id: dockerhub-debug
     build: headscale
     base_image: gcr.io/distroless/base-debian12:debug
-    repository: headscale/headscale
+    repository: metal0/headscale
     bare: true
     platforms:
       - linux/amd64
