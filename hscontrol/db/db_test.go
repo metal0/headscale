@@ -10,7 +10,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/juanfont/headscale/hscontrol/types"
+	"github.com/metal0/headscale/hscontrol/types"
 	"github.com/stretchr/testify/assert"
 	"gorm.io/gorm"
 )

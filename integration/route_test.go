@@ -10,11 +10,11 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	v1 "github.com/juanfont/headscale/gen/go/headscale/v1"
-	"github.com/juanfont/headscale/hscontrol/policy"
-	"github.com/juanfont/headscale/hscontrol/util"
-	"github.com/juanfont/headscale/integration/hsic"
-	"github.com/juanfont/headscale/integration/tsic"
+	v1 "github.com/metal0/headscale/gen/go/headscale/v1"
+	"github.com/metal0/headscale/hscontrol/policy"
+	"github.com/metal0/headscale/hscontrol/util"
+	"github.com/metal0/headscale/integration/hsic"
+	"github.com/metal0/headscale/integration/tsic"
 	"github.com/stretchr/testify/assert"
 	"tailscale.com/types/ipproto"
 	"tailscale.com/types/views"
@@ -960,7 +960,7 @@ func TestEnableDisableAutoApprovedRoute(t *testing.T) {
 // TestSubnetRouteACL verifies that Subnet routes are distributed
 // as expected when ACLs are activated.
 // It implements the issue from
-// https://github.com/juanfont/headscale/issues/1604
+// https://github.com/metal0/headscale/issues/1604
 func TestSubnetRouteACL(t *testing.T) {
 	IntegrationSkip(t)
 	t.Parallel()

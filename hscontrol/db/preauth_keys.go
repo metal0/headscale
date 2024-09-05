@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/juanfont/headscale/hscontrol/types"
+	"github.com/metal0/headscale/hscontrol/types"
 	"gorm.io/gorm"
 	"tailscale.com/types/ptr"
 )

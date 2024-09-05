@@ -16,9 +16,9 @@ import (
 
 	"github.com/coreos/go-oidc/v3/oidc"
 	"github.com/gorilla/mux"
-	"github.com/juanfont/headscale/hscontrol/db"
-	"github.com/juanfont/headscale/hscontrol/types"
-	"github.com/juanfont/headscale/hscontrol/util"
+	"github.com/metal0/headscale/hscontrol/db"
+	"github.com/metal0/headscale/hscontrol/types"
+	"github.com/metal0/headscale/hscontrol/util"
 	"github.com/rs/zerolog/log"
 	"golang.org/x/oauth2"
 	"gorm.io/gorm"

@@ -24,12 +24,12 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	v1 "github.com/juanfont/headscale/gen/go/headscale/v1"
-	"github.com/juanfont/headscale/hscontrol/policy"
-	"github.com/juanfont/headscale/hscontrol/types"
-	"github.com/juanfont/headscale/hscontrol/util"
-	"github.com/juanfont/headscale/integration/dockertestutil"
-	"github.com/juanfont/headscale/integration/integrationutil"
+	v1 "github.com/metal0/headscale/gen/go/headscale/v1"
+	"github.com/metal0/headscale/hscontrol/policy"
+	"github.com/metal0/headscale/hscontrol/types"
+	"github.com/metal0/headscale/hscontrol/util"
+	"github.com/metal0/headscale/integration/dockertestutil"
+	"github.com/metal0/headscale/integration/integrationutil"
 	"github.com/ory/dockertest/v3"
 	"github.com/ory/dockertest/v3/docker"
 )

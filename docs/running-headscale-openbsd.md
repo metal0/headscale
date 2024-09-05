@@ -25,18 +25,18 @@ describing how to make `headscale` run properly in a server environment.
     # Install prerequistes
     pkg_add go
 
-    git clone https://github.com/juanfont/headscale.git
+    git clone https://github.com/metal0/headscale.git
 
     cd headscale
 
     # optionally checkout a release
-    # option a. you can find official release at https://github.com/juanfont/headscale/releases/latest
+    # option a. you can find official release at https://github.com/metal0/headscale/releases/latest
     # option b. get latest tag, this may be a beta release
     latestTag=$(git describe --tags `git rev-list --tags --max-count=1`)
 
     git checkout $latestTag
 
-    go build -ldflags="-s -w -X github.com/juanfont/headscale/cmd/headscale/cli.Version=$latestTag" github.com/juanfont/headscale
+    go build -ldflags="-s -w -X github.com/metal0/headscale/cmd/headscale/cli.Version=$latestTag" github.com/metal0/headscale
 
     # make it executable
     chmod a+x headscale
@@ -52,12 +52,12 @@ describing how to make `headscale` run properly in a server environment.
     # 1. go v1.20+: headscale newer than 0.21 needs go 1.20+ to compile
     # 2. gmake: Makefile in the headscale repo is written in GNU make syntax
 
-    git clone https://github.com/juanfont/headscale.git
+    git clone https://github.com/metal0/headscale.git
 
     cd headscale
 
     # optionally checkout a release
-    # option a. you can find official release at https://github.com/juanfont/headscale/releases/latest
+    # option a. you can find official release at https://github.com/metal0/headscale/releases/latest
     # option b. get latest tag, this may be a beta release
     latestTag=$(git describe --tags `git rev-list --tags --max-count=1`)
 
@@ -87,7 +87,7 @@ describing how to make `headscale` run properly in a server environment.
     touch /etc/headscale/config.yaml
     ```
 
-**(Strongly Recommended)** Download a copy of the [example configuration](https://github.com/juanfont/headscale/blob/main/config-example.yaml) from the headscale repository.
+**(Strongly Recommended)** Download a copy of the [example configuration](https://github.com/metal0/headscale/blob/main/config-example.yaml) from the headscale repository.
 
 1. Start the headscale server:
 

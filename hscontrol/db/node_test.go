@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/juanfont/headscale/hscontrol/policy"
-	"github.com/juanfont/headscale/hscontrol/types"
-	"github.com/juanfont/headscale/hscontrol/util"
+	"github.com/metal0/headscale/hscontrol/policy"
+	"github.com/metal0/headscale/hscontrol/types"
+	"github.com/metal0/headscale/hscontrol/util"
 	"github.com/puzpuzpuz/xsync/v3"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/check.v1"

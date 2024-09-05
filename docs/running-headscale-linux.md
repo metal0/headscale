@@ -20,13 +20,13 @@ configuration (`/etc/headscale/config.yaml`).
 
 ## Installation
 
-1. Download the [latest Headscale package](https://github.com/juanfont/headscale/releases/latest) for your platform (`.deb` for Ubuntu and Debian).
+1. Download the [latest Headscale package](https://github.com/metal0/headscale/releases/latest) for your platform (`.deb` for Ubuntu and Debian).
 
     ```shell
     HEADSCALE_VERSION="" # See above URL for latest version, e.g. "X.Y.Z" (NOTE: do not add the "v" prefix!)
     HEADSCALE_ARCH="" # Your system architecture, e.g. "amd64"
     wget --output-document=headscale.deb \
-      "https://github.com/juanfont/headscale/releases/download/v${HEADSCALE_VERSION}/headscale_${HEADSCALE_VERSION}_linux_${HEADSCALE_ARCH}.deb"
+      "https://github.com/metal0/headscale/releases/download/v${HEADSCALE_VERSION}/headscale_${HEADSCALE_VERSION}_linux_${HEADSCALE_ARCH}.deb"
     ```
 
 1. Install Headscale:

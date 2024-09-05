@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/juanfont/headscale/hscontrol/util"
-	"github.com/juanfont/headscale/integration/tsic"
+	"github.com/metal0/headscale/hscontrol/util"
+	"github.com/metal0/headscale/integration/tsic"
 	"github.com/stretchr/testify/assert"
 )
 

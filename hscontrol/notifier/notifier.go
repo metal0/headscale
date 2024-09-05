@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/juanfont/headscale/hscontrol/types"
+	"github.com/metal0/headscale/hscontrol/types"
 	"github.com/puzpuzpuz/xsync/v3"
 	"github.com/rs/zerolog/log"
 	"github.com/sasha-s/go-deadlock"

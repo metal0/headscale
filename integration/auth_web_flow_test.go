@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/juanfont/headscale/integration/hsic"
+	"github.com/metal0/headscale/integration/hsic"
 	"github.com/samber/lo"
 )
 

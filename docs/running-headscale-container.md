@@ -22,18 +22,18 @@ not work with alternatives like [Podman](https://podman.io). The Docker image ca
     cd ./headscale
     ```
 
-1. **(Strongly Recommended)** Download a copy of the [example configuration](https://github.com/juanfont/headscale/blob/main/config-example.yaml) from the headscale repository.
+1. **(Strongly Recommended)** Download a copy of the [example configuration](https://github.com/metal0/headscale/blob/main/config-example.yaml) from the headscale repository.
 
     - Using `wget`:
 
         ```shell
-        wget -O ./config/config.yaml https://raw.githubusercontent.com/juanfont/headscale/main/config-example.yaml
+        wget -O ./config/config.yaml https://raw.githubusercontent.com/metal0/headscale/main/config-example.yaml
         ```
 
     - Using `curl`:
 
         ```shell
-        curl https://raw.githubusercontent.com/juanfont/headscale/main/config-example.yaml -o ./config/config.yaml
+        curl https://raw.githubusercontent.com/metal0/headscale/main/config-example.yaml -o ./config/config.yaml
         ```
 
     Modify the config file to your preferences before launching Docker container.

@@ -88,7 +88,7 @@ headscale apikeys expire --prefix "<PREFIX>"
 
 ### Download and configure `headscale` client
 
-1. Download the latest [`headscale` binary from GitHub's release page](https://github.com/juanfont/headscale/releases):
+1. Download the latest [`headscale` binary from GitHub's release page](https://github.com/metal0/headscale/releases):
 
 2. Put the binary somewhere in your `PATH`, e.g. `/usr/local/bin/headscale`
 

@@ -13,11 +13,11 @@ describing how to make `headscale` run properly in a server environment.
 
 ## Configure and run `headscale`
 
-1. Download the latest [`headscale` binary from GitHub's release page](https://github.com/juanfont/headscale/releases):
+1. Download the latest [`headscale` binary from GitHub's release page](https://github.com/metal0/headscale/releases):
 
     ```shell
     wget --output-document=/usr/local/bin/headscale \
-    https://github.com/juanfont/headscale/releases/download/v<HEADSCALE VERSION>/headscale_<HEADSCALE VERSION>_linux_<ARCH>
+    https://github.com/metal0/headscale/releases/download/v<HEADSCALE VERSION>/headscale_<HEADSCALE VERSION>_linux_<ARCH>
     ```
 
 1. Make `headscale` executable:
@@ -51,7 +51,7 @@ describing how to make `headscale` run properly in a server environment.
     touch /etc/headscale/config.yaml
     ```
 
-    **(Strongly Recommended)** Download a copy of the [example configuration](https://github.com/juanfont/headscale/blob/main/config-example.yaml) from the headscale repository.
+    **(Strongly Recommended)** Download a copy of the [example configuration](https://github.com/metal0/headscale/blob/main/config-example.yaml) from the headscale repository.
 
 1. Start the headscale server:
 

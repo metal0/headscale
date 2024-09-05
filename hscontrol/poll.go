@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/juanfont/headscale/hscontrol/db"
-	"github.com/juanfont/headscale/hscontrol/mapper"
-	"github.com/juanfont/headscale/hscontrol/types"
+	"github.com/metal0/headscale/hscontrol/db"
+	"github.com/metal0/headscale/hscontrol/mapper"
+	"github.com/metal0/headscale/hscontrol/types"
 	"github.com/rs/zerolog/log"
 	"github.com/sasha-s/go-deadlock"
 	xslices "golang.org/x/exp/slices"

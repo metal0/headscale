@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/juanfont/headscale/hscontrol/types"
-	"github.com/juanfont/headscale/hscontrol/util"
+	"github.com/metal0/headscale/hscontrol/types"
+	"github.com/metal0/headscale/hscontrol/util"
 	"github.com/spf13/viper"
 	"gopkg.in/check.v1"
 )

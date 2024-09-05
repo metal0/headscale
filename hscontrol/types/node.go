@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	v1 "github.com/juanfont/headscale/gen/go/headscale/v1"
-	"github.com/juanfont/headscale/hscontrol/policy/matcher"
-	"github.com/juanfont/headscale/hscontrol/util"
+	v1 "github.com/metal0/headscale/gen/go/headscale/v1"
+	"github.com/metal0/headscale/hscontrol/policy/matcher"
+	"github.com/metal0/headscale/hscontrol/util"
 	"go4.org/netipx"
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"gorm.io/gorm"

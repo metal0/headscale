@@ -26,7 +26,7 @@ builds:
     flags:
       - -mod=readonly
     ldflags:
-      - -s -w -X github.com/juanfont/headscale/cmd/headscale/cli.Version=v{{.Version}}
+      - -s -w -X github.com/metal0/headscale/cmd/headscale/cli.Version=v{{.Version}}
     tags:
       - ts2019
 
@@ -58,7 +58,7 @@ nfpms:
     priority: optional
     vendor: headscale
     maintainer: Kristoffer Dalby <kristoffer@dalby.cc>
-    homepage: https://github.com/juanfont/headscale
+    homepage: https://github.com/metal0/headscale
     license: BSD
     bindir: /usr/bin
     formats:
@@ -81,7 +81,7 @@ nfpms:
 
 kos:
   - id: ghcr
-    repository: ghcr.io/juanfont/headscale
+    repository: ghcr.io/metal0/headscale
 
     # bare tells KO to only use the repository
     # for tagging and naming the container.
@@ -133,7 +133,7 @@ kos:
       - "sha-{{ .ShortCommit }}"
 
   - id: ghcr-debug
-    repository: ghcr.io/juanfont/headscale
+    repository: ghcr.io/metal0/headscale
     bare: true
     base_image: gcr.io/distroless/base-debian12:debug
     build: headscale

@@ -36,7 +36,7 @@
 
           subPackages = ["cmd/headscale"];
 
-          ldflags = ["-s" "-w" "-X github.com/juanfont/headscale/cmd/headscale/cli.Version=v${version}"];
+          ldflags = ["-s" "-w" "-X github.com/metal0/headscale/cmd/headscale/cli.Version=v${version}"];
         };
 
         protoc-gen-grpc-gateway = buildGo rec {

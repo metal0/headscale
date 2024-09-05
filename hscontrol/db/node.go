@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/juanfont/headscale/hscontrol/types"
-	"github.com/juanfont/headscale/hscontrol/util"
+	"github.com/metal0/headscale/hscontrol/types"
+	"github.com/metal0/headscale/hscontrol/util"
 	"github.com/patrickmn/go-cache"
 	"github.com/puzpuzpuz/xsync/v3"
 	"github.com/rs/zerolog/log"

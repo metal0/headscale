@@ -16,9 +16,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/juanfont/headscale/hscontrol/util"
-	"github.com/juanfont/headscale/integration/dockertestutil"
-	"github.com/juanfont/headscale/integration/integrationutil"
+	"github.com/metal0/headscale/hscontrol/util"
+	"github.com/metal0/headscale/integration/dockertestutil"
+	"github.com/metal0/headscale/integration/integrationutil"
 	"github.com/ory/dockertest/v3"
 	"github.com/ory/dockertest/v3/docker"
 	"tailscale.com/ipn"

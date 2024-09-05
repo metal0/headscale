@@ -1,6 +1,6 @@
 ![headscale logo](./docs/logo/headscale3_header_stacked_left.png)
 
-![ci](https://github.com/juanfont/headscale/actions/workflows/test.yml/badge.svg)
+![ci](https://github.com/metal0/headscale/actions/workflows/test.yml/badge.svg)
 
 An open source, self-hosted implementation of the Tailscale control server.
 

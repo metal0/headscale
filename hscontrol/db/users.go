@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/juanfont/headscale/hscontrol/types"
-	"github.com/juanfont/headscale/hscontrol/util"
+	"github.com/metal0/headscale/hscontrol/types"
+	"github.com/metal0/headscale/hscontrol/util"
 	"gorm.io/gorm"
 )
 
